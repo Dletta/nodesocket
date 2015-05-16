@@ -1,0 +1,32 @@
+{
+  "name": "NodeSocket",
+  "version": "1.0.0",
+  "description": "ChatApp to get NodeSocket to work with Angular etc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuchidahiro/nodesocket.git"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "angularjs",
+    "socketio"
+  ],
+  "author": "Jachen Duschletta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuchidahiro/nodesocket/issues"
+  },
+  "homepage": "https://github.com/fuchidahiro/nodesocket",
+  "dependencies": {
+    "express": "^4.12.3",
+    "socket.io": "^1.3.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.5.3"
+  }
+}
