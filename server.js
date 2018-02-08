@@ -45,12 +45,12 @@ io.sockets.on('connection', function(socket){
 		console.log(msg);
 		io.emit('msg', msg);
 	});
-	
-	/* We get a message, we send a gift back to the guy who sent it */
+
+	/* We get a message, we send a gift back to the guy who sent it (DEV)
 	socket.on('newMsg', function(msg){
 		socket.emit('msg', {'name':'Host', 'message':'Thanks for sending something!'});
 	});
-	
+	*/
 });
 
 io.sockets.on('disconnection', function(socket){

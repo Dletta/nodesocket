@@ -18,7 +18,7 @@
   </head>
   <body ng-controller="mainController">
 	  AngularJS {{ name }}. Please enter your chatname:<input type="text" ng-model="user" />
-	  
+
 	<div class='container'>
 		<ul id="messages">
 			<li ng-repeat="message in messages">
@@ -29,11 +29,7 @@
 			<span>{{ user }}</span><input ng-model="msg" /><button ng-click="send()">Send</button>
 		</form>
 	</div>
-	
-	<div class="footer">
-		<input type='file' />
-	</div>
-	
+
 	<script src="app.js"></script>
   </body>
 </html>
